@@ -48,7 +48,7 @@ $products = $stmt->fetchAll();
       <p>Laptops, phones, monitors, keyboards and headphones — sourced, reviewed, and shipped fast.</p>
       <a href="#shop" class="btn btn-solid">Browse products</a>
     </div>
-    <div class="hero-visual"><i class="fa-solid fa-microchip"></i></div>
+    <div class="hero-visual"><img src="<?php echo asset('assets/images/hero.svg'); ?>" alt="Laptop, monitor, phone and headphones"></div>
   </div>
 </section>
 <?php endif; ?>
