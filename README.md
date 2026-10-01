@@ -5,7 +5,7 @@
 The project is built using **HTML, CSS, JavaScript, PHP, and MySQL**, with a responsive customer interface and a dedicated admin dashboard for managing products, categories, users, and orders.
 
 🌐 **Live Website:** https://techtime.free.je/
-💻 **GitHub Repository:** https://github.com/maruf0237/techtime
+
 
 ---
 
