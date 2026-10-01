@@ -83,20 +83,18 @@ techtime/
 ├── my\\\_orders.php, order\\\_details.php
 └── login.php, register.php, logout.php
 ```
-```
+---
 🗄️ Database Tables
 `users` · `categories` · `products` · `product\\\_images` · `cart` · `orders` · `order\\\_items` · `reviews` · `product\\\_chat`
 If you installed an older version, run `sql/add\\\_product\\\_chat.sql` and/or `sql/add\\\_product\\\_images.sql` instead of re-importing everything.
-```
-```
+---
 🔒 Security Notes
 PDO prepared statements throughout (protects against SQL injection)
 Passwords stored with `password\\\_hash()`
 Output escaped before rendering
 Admin pages are role-protected
 Uploaded photos are validated by MIME type and size (max 3 MB)
-```
-```
+---
 📤 Uploading to GitHub
 cd techtime
 git init
@@ -105,8 +103,7 @@ git commit -m "Initial commit: Tech Time e-commerce"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/techtime.git
 git push -u origin main
-```
-```
+
+
 📄 License
 This project is for learning and personal use. Add a license (e.g. MIT) if you want others to reuse it.
-```
